@@ -1,0 +1,14 @@
+@import 'highlight.js/styles/github-dark.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #09090b;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,125 @@
+\documentclass[10pt]{article}
+
+\usepackage[margin=0.40in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\hypersetup{colorlinks=true, urlcolor=black, linkcolor=black}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\pagestyle{empty}
+
+\newcommand{\resumesection}[1]{%
+  \vspace{4pt}%
+  {\bfseries\normalsize\MakeUppercase{#1}}\\[-2pt]
+  \hrule
+  \vspace{2pt}%
+}
+\newcommand{\resumeHeader}[2]{%
+  \begin{center}
+    {\LARGE \bfseries #1}\\[2pt]
+    {\small #2}\\[-2pt]
+  \end{center}
+  \vspace{-2pt}
+  \hrule
+  \vspace{4pt}
+}
+\newcommand{\twoCol}[2]{%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+    #1 & #2 \\
+  \end{tabular*}
+}
+\newcommand{\bulletListStart}{\begin{itemize}[leftmargin=0.15in, labelsep=0.08in, itemsep=0pt, topsep=1pt, parsep=0pt, partopsep=0pt]}
+\newcommand{\bulletListEnd}{\end{itemize}}
+
+\begin{document}
+
+\resumeHeader{Vaishak Menon}{La Jolla, San Diego, CA \;|\; +1 858-220-6008 \;|\;
+  \href{mailto:mvaishak.works@gmail.com}{mvaishak.works@gmail.com} \;|\;
+  \href{https://www.linkedin.com/in/m-vaishak-menon/}{LinkedIn} \;|\;
+  \href{https://github.com/mvaishak}{GitHub}}
+\small
+
+% ───────────────────────────────────────────────────
+\resumesection{Education}
+
+\twoCol{\textbf{University of California -- San Diego}}{\textbf{Sep 2025 -- Jun 2027}}
+\twoCol{\textit{Master of Science, Data Science} \quad GPA: 4.0\,/\,4.0}{San Diego, CA}
+\bulletListStart
+  \item Coursework: Machine Learning, Statistical Modeling, Web Mining \& Recommender Systems, Efficient AI, ML Systems
+\bulletListEnd
+
+\vspace{2pt}
+\twoCol{\textbf{Vellore Institute of Technology}}{\textbf{Jan 2017 -- Jun 2021}}
+\twoCol{\textit{Bachelor of Technology, Electronics \& Communication Engineering} \quad GPA: 3.79\,/\,4.0}{Chennai, India}
+\bulletListStart
+  \item Coursework: Neural Networks \& Fuzzy Control, Linear Algebra, Probability \& Random Processes
+\bulletListEnd
+
+% ───────────────────────────────────────────────────
+\resumesection{Experience}
+
+\twoCol{\textbf{Tredence Inc.} \;|\; \textit{Machine Learning Engineer}}{\textbf{Jan 2023 -- Jun 2025}}
+\bulletListStart
+  \item Deployed \textbf{Neural Collaborative Filtering} and a \textbf{contrastive learning} discovery engine to production, driving an \textbf{18\% lift in recommendation CTR} and \textbf{14\% improvement in add-to-cart rate} on the e-commerce platform.
+  \item Built \textbf{customer scoring models} using \textbf{XGBoost} and \textbf{LightGBM} on large-scale behavioral event data to predict purchase propensity and churn risk; outputs were integrated into CRM systems to trigger retention workflows, improving retention by \textbf{11\%}.
+  \item Rebuilt model training from single-node to \textbf{distributed PySpark} pipelines on \textbf{Databricks}, enabling production-grade modeling on datasets exceeding \textbf{500M rows} and reducing training time by \textbf{85\%}.
+  \item Designed \textbf{A/B testing} infrastructure with \textbf{K-Means} user stratification to evaluate model changes in production; achieved a \textbf{6\% NDCG@10 lift} and \textbf{8\% recall gain} across live traffic, communicating results to product and engineering partners.
+  \item Designed and deployed \textbf{MLWorks}, a production \textbf{model observability} platform for real-time \textbf{data drift}, bias, and quality monitoring; reduced ML issue detection latency by \textbf{60\%}.
+\bulletListEnd
+
+\vspace{2pt}
+\twoCol{\textbf{Tredence Inc.} \;|\; \textit{Data Analyst}}{\textbf{Jun 2021 -- Dec 2022}}
+\bulletListStart
+  \item Built and deployed a production \textbf{demand forecasting} platform using \textbf{time-series} ensembles (\textbf{FBProphet}, \textbf{ARIMA}, \textbf{SARIMA}), achieving a \textbf{10\% MAPE improvement} and \textbf{8\% inventory cost reduction} across global markets.
+  \item Developed \textbf{customer segmentation} models using \textbf{RFM analysis} and \textbf{K-Means} clustering on transactional data, enabling targeted campaigns that improved conversion rates by \textbf{12\%} across high-value cohorts.
+  \item Automated global supply chain \textbf{KPI reporting} with \textbf{Power BI} dashboards, reducing executive reporting turnaround by \textbf{25\%}.
+\bulletListEnd
+
+\vspace{2pt}
+\twoCol{\textbf{Tredence Inc.} \;|\; \textit{Data Analyst Intern}}{\textbf{Jan 2021 -- May 2021}}
+\bulletListStart
+  \item Built a \textbf{Multi-Touch Attribution} model using \textbf{Markov Chains} to quantify digital channel contributions, improving \textbf{marketing budget efficiency} by \textbf{15\%} across digital campaigns.
+\bulletListEnd
+
+% ───────────────────────────────────────────────────
+\resumesection{Skills}
+
+\textbf{Programming:} Python, SQL, PySpark, R, C++
+
+\textbf{Libraries \& Frameworks:} PyTorch, TensorFlow, Scikit-learn, XGBoost, LightGBM, Statsmodels, Hugging Face Transformers, LangChain, LangGraph, Pandas, NumPy, Plotly
+
+\textbf{DS/ML/DL:} Statistical Modeling, Deep Learning, Transformers, Neural Collaborative Filtering, Contrastive Learning, Recommender Systems, Clustering, Time-Series Forecasting, A/B Testing, Feature Engineering, Embedding Models, NLP, Diffusion Models (DiT)
+
+\textbf{GenAI/LLM:} LLMs, RAG, Multi-Agent Systems, Agentic AI, Prompt Engineering, Knowledge Graphs (GraphRAG), KV-Cache Optimization, Vector Databases (Qdrant), Semantic Search
+
+\textbf{MLOps/Cloud:} MLflow, Databricks, AWS, Docker, Git, CI/CD, Langfuse, DeepEval, RAGAS, Experiment Tracking, Model Versioning, Model Drift Monitoring, Real-Time Observability
+
+% ───────────────────────────────────────────────────
+\resumesection{Projects}
+
+\twoCol{\textbf{PlayNext -- Steam Game Recommender System} \;|\; \href{https://github.com/mvaishak/PlayNext}{\textit{github.com/mvaishak/PlayNext}}}{}
+\bulletListStart
+  \item Built a \textbf{hybrid collaborative filtering} recommender on the Steam dataset (\textbf{88,310 users, 32,135 games, 5.8M+ interactions}) using \textbf{bundle co-occurrence} as an auxiliary signal alongside user--item interaction history; achieved a \textbf{79.5\% Hit Rate@10}, outperforming popularity baselines by \textbf{21 pp}.
+  \item Evaluated across \textbf{Precision@K}, \textbf{Recall@K}, and \textbf{NDCG} on an 80/20 per-user split over \textbf{62,936 test users}; tuned hybrid score blending via grid search and deployed an interactive \textbf{Streamlit} demo with precomputed recommendations.
+\bulletListEnd
+
+\vspace{2pt}
+\twoCol{\textbf{Scientific Literature Intelligence Platform}}{}
+\bulletListStart
+  \item Built a \textbf{multi-agent RAG} system with \textbf{LangGraph} orchestration, 2-hop \textbf{citation-graph traversal} (NetworkX), and \textbf{GPT-4o} synthesis with per-claim source attribution; demonstrated $\geq$\textbf{10 pp citation recall improvement} over vector-only RAG on a 50-question benchmark evaluated with \textbf{RAGAS} and \textbf{DeepEval}.
+  \item Engineered a \textbf{LaTeX-aware chunking} pipeline for equation-preserving ingestion, \textbf{GPT-4o-mini} entity annotation, \textbf{Qdrant} vector store with \textbf{Cohere} reranking, and \textbf{Langfuse} observability traces logging token cost and retrieval hops per query.
+\bulletListEnd
+
+\vspace{2pt}
+\twoCol{\textbf{KV-Cache Quantization for Long-Horizon Video Generation}}{}
+\bulletListStart
+  \item Conducted a 33-method empirical study of \textbf{KV-cache compression} and \textbf{quantization} for self-forcing video generation (\textbf{Wan2.1}), benchmarking peak VRAM, runtime, compression ratio, and \textbf{VBench} fidelity across methods.
+  \item Identified \textbf{FlowCache-inspired soft-prune INT4} as optimal, achieving \textbf{5.4$\times$ compression} and reducing peak VRAM from \textbf{19.3 GB to 11.7 GB} while preserving generation quality in long-horizon inference.
+\bulletListEnd
+
+\end{document}
