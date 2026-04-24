@@ -18,25 +18,29 @@ export default function BlogPage() {
       </section>
 
       <section className="space-y-0">
-        {posts.map((post) => (
-          <Link
-            key={post.slug}
-            href={`/blog/${post.slug}`}
-            className="no-underline block border-b border-border py-6 group"
-          >
-            <div className="flex items-baseline justify-between gap-6">
-              <h2 className="text-sm font-medium group-hover:underline decoration-1 underline-offset-4 transition-none leading-snug">
-                {post.title}
-              </h2>
-              <span className="font-mono text-xs text-zinc-500 shrink-0">{post.date}</span>
-            </div>
-            {post.excerpt && (
-              <p className="text-xs text-zinc-500 mt-2 leading-relaxed max-w-lg">
-                {post.excerpt}
-              </p>
-            )}
-          </Link>
-        ))}
+        {posts.length === 0 ? (
+          <p className="text-xs text-zinc-600 font-mono pt-2">nothing published yet.</p>
+        ) : (
+          posts.map((post) => (
+            <Link
+              key={post.slug}
+              href={`/blog/${post.slug}`}
+              className="no-underline block border-b border-border py-6 group"
+            >
+              <div className="flex items-baseline justify-between gap-6">
+                <h2 className="text-base font-medium group-hover:underline decoration-1 underline-offset-4 transition-none leading-snug">
+                  {post.title}
+                </h2>
+                <span className="font-mono text-xs text-zinc-500 shrink-0">{post.date}</span>
+              </div>
+              {post.excerpt && (
+                <p className="text-sm text-zinc-500 mt-2 leading-relaxed max-w-lg">
+                  {post.excerpt}
+                </p>
+              )}
+            </Link>
+          ))
+        )}
       </section>
     </div>
   );

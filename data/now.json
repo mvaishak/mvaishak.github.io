@@ -1,0 +1,76 @@
+{
+  "film": {
+    "recentlyWatched": [
+      {
+        "title": "Escape from Alcatraz",
+        "year": 1979,
+        "rating": 3
+      },
+      {
+        "title": "Before I Disappear",
+        "year": 2014,
+        "rating": 3
+      },
+      {
+        "title": "18x2 Beyond Youthful Days",
+        "year": 2024,
+        "rating": 4
+      },
+      {
+        "title": "Panic Room",
+        "year": 2002,
+        "rating": 4
+      },
+      {
+        "title": "Zodiac",
+        "year": 2007,
+        "rating": 4
+      }
+    ],
+    "letterboxd": "https://letterboxd.com/vaishakmelon/"
+  },
+  "books": {
+    "currentlyReading": {
+      "title": "The Dungeon Anarchist's Cookbook",
+      "author": "Matt Dinniman"
+    },
+    "recentlyFinished": [
+      {
+        "title": "Carl's Doomsday Scenario",
+        "author": "Matt Dinniman"
+      },
+      {
+        "title": "Dungeon Crawler Carl",
+        "author": "Matt Dinniman"
+      }
+    ],
+    "goodreads": "https://www.goodreads.com/user/show/71907939-vaishak"
+  },
+  "music": {
+    "recentArtists": [
+      "Fred again..",
+      "Aksomaniac",
+      "Creedence Clearwater Revival"
+    ],
+    "lastfm": "https://www.last.fm/user/m_vaishak"
+  },
+  "gaming": {
+    "currentlyPlaying": {
+      "title": "Esoteric Ebb",
+      "platform": "PC",
+      "status": "early access"
+    },
+    "recentlyCompleted": [
+      "Hollow Knight",
+      "Disco Elysium"
+    ]
+  },
+  "lifestyle": {
+    "activities": [
+      "snorkeling",
+      "freediving",
+      "beach runs"
+    ],
+    "location": "san diego, ca"
+  }
+}
