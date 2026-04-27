@@ -49,69 +49,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
-      <section className="space-y-6">
-        <div className="space-y-1">
-          <p className="font-mono text-xs text-zinc-500 uppercase tracking-widest">message</p>
-          <p className="text-xs text-zinc-600">or send a message directly</p>
-        </div>
-
-        <form
-          action="https://formspree.io/f/placeholder"
-          method="POST"
-          className="space-y-5 max-w-md"
-        >
-          <div className="space-y-2">
-            <label htmlFor="name" className="font-mono text-xs text-zinc-500 block">
-              name
-            </label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              required
-              className="w-full bg-transparent border border-border px-3 py-2 text-sm text-white placeholder-zinc-700 focus:outline-none focus:border-zinc-500"
-              placeholder="your name"
-            />
-          </div>
-
-          <div className="space-y-2">
-            <label htmlFor="email" className="font-mono text-xs text-zinc-500 block">
-              email
-            </label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              required
-              className="w-full bg-transparent border border-border px-3 py-2 text-sm text-white placeholder-zinc-700 focus:outline-none focus:border-zinc-500"
-              placeholder="you@example.com"
-            />
-          </div>
-
-          <div className="space-y-2">
-            <label htmlFor="message" className="font-mono text-xs text-zinc-500 block">
-              message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              required
-              rows={6}
-              className="w-full bg-transparent border border-border px-3 py-2 text-sm text-white placeholder-zinc-700 focus:outline-none focus:border-zinc-500 resize-none"
-              placeholder="what's on your mind?"
-            />
-          </div>
-
-          {/* C6: larger tap target, full-width on mobile */}
-          <button
-            type="submit"
-            className="w-full sm:w-auto font-mono text-xs text-zinc-400 border border-border px-6 py-3 hover:text-white hover:border-zinc-500 hover:bg-zinc-900 transition-colors cursor-pointer bg-transparent"
-          >
-            send message
-          </button>
-        </form>
-      </section>
     </div>
   );
 }

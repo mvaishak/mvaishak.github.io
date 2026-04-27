@@ -100,7 +100,7 @@ export default function NowSection() {
           </div>
           <div className="flex flex-wrap gap-x-2 gap-y-1 pt-0.5 border-t border-border">
             {lifestyle.activities.map((act) => (
-              <span key={act} className="text-[11px] text-zinc-600">{act}</span>
+              <span key={act} className="text-[11px] text-white">{act}</span>
             ))}
           </div>
         </div>

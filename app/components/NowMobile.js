@@ -90,7 +90,7 @@ export default function NowMobile() {
               </div>
               <div className="border-t border-border pt-1.5 flex flex-wrap gap-x-1.5 gap-y-1">
                 {lifestyle.activities.map((act) => (
-                  <span key={act} className="text-[10px] text-zinc-600">{act}</span>
+                  <span key={act} className="text-[10px] text-white">{act}</span>
                 ))}
               </div>
             </div>
