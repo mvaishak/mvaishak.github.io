@@ -29,6 +29,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "now.json unchanged — nothing to commit"
           else
-            git commit -m "chore: update now section [skip ci]"
+            git commit -m "chore: update now section"
             git push
           fi
