@@ -14,8 +14,17 @@ async function get(url) {
   return res.text();
 }
 
+function decodeEntities(s) {
+  return s
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'");
+}
+
 function cdata(s) {
-  return s.replace(/<!\[CDATA\[|\]\]>/g, '').trim();
+  return decodeEntities(s.replace(/<!\[CDATA\[|\]\]>/g, '').trim());
 }
 
 function tag(text, name) {
