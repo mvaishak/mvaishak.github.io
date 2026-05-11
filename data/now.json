@@ -2,6 +2,16 @@
   "film": {
     "recentlyWatched": [
       {
+        "title": "Bangalore Days",
+        "year": 2014,
+        "rating": null
+      },
+      {
+        "title": "Hoppers",
+        "year": 2026,
+        "rating": 3
+      },
+      {
         "title": "The Super Mario Galaxy Movie",
         "year": 2026,
         "rating": 1
@@ -15,16 +25,6 @@
         "title": "Bharathanatyam",
         "year": 2024,
         "rating": 2
-      },
-      {
-        "title": "Risky Business",
-        "year": 1983,
-        "rating": 3
-      },
-      {
-        "title": "Gone Baby Gone",
-        "year": 2007,
-        "rating": 4
       }
     ],
     "letterboxd": "https://letterboxd.com/vaishakmelon/"
@@ -50,10 +50,10 @@
     "recentArtists": [
       "Masego",
       "Fred again..",
-      "Madison Beer",
-      "Masego & Don Toliver",
-      "Adam Port, Stryv, Keinemusik, Orso and Malachiii",
-      "Aksomaniac"
+      "M.I.A.",
+      "Breaking Benjamin",
+      "Daft Punk",
+      "Madison Beer"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
   },
