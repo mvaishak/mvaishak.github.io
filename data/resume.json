@@ -91,6 +91,15 @@
   ],
   "projects": [
     {
+      "title": "FilmNerd — Personal Film Taste Modeling System",
+      "url": "https://github.com/mvaishak/FilmNerd",
+      "urlLabel": "github.com/mvaishak/FilmNerd",
+      "bullets": [
+        "Built a personal film taste modeling system over 808 Letterboxd ratings, decomposing viewing preferences into 20 craft dimensions (narrative structure, pacing, cinematography, directorial lineage, etc.) via local LLM annotation; trained a 4-model ensemble selecting Random Forest as best performer with MAE 0.546 stars — 87.5% of predictions fall within ±1.0 star of actual post-watch ratings.",
+        "Engineered a 6-stage pipeline — TMDB enrichment → LangGraph annotation → NetworkX knowledge graph (3,505 nodes, 10,574 edges) → Qdrant vector indexing (768-dim embeddings) → React/TypeScript web UI — with Langfuse observability traces and a ground-truth logger for continuous prediction validation."
+      ]
+    },
+    {
       "title": "PlayNext — Steam Game Recommender System",
       "url": "https://github.com/mvaishak/PlayNext",
       "urlLabel": "github.com/mvaishak/PlayNext",
@@ -101,8 +110,8 @@
     },
     {
       "title": "Scientific Literature Intelligence Platform",
-      "url": null,
-      "urlLabel": null,
+      "url": "https://github.com/mvaishak/SciLitAgent",
+      "urlLabel": "github.com/mvaishak/SciLitAgent",
       "bullets": [
         "Built a multi-agent RAG system with LangGraph orchestration, 2-hop citation-graph traversal (NetworkX), and GPT-4o synthesis with per-claim source attribution; demonstrated ≥10 pp citation recall improvement over vector-only RAG on a 50-question benchmark evaluated with RAGAS and DeepEval.",
         "Engineered a LaTeX-aware chunking pipeline for equation-preserving ingestion, GPT-4o-mini entity annotation, Qdrant vector store with Cohere reranking, and Langfuse observability traces logging token cost and retrieval hops per query."
@@ -110,8 +119,8 @@
     },
     {
       "title": "KV-Cache Quantization for Long-Horizon Video Generation",
-      "url": null,
-      "urlLabel": null,
+      "url": "https://github.com/suraj-ranganath/kv-quant-longhorizon",
+      "urlLabel": "https://github.com/suraj-ranganath/kv-quant-longhorizon",
       "bullets": [
         "Conducted a 33-method empirical study of KV-cache compression and quantization for self-forcing video generation (Wan2.1), benchmarking peak VRAM, runtime, compression ratio, and VBench fidelity across methods.",
         "Identified FlowCache-inspired soft-prune INT4 as optimal, achieving 5.4× compression and reducing peak VRAM from 19.3 GB to 11.7 GB while preserving generation quality in long-horizon inference."
