@@ -44,6 +44,15 @@ export default function ResumePage() {
             github
           </a>
         </div>
+        <div className="pt-4">
+          <a
+            href="/resume.pdf"
+            download="vaishak-menon-resume.pdf"
+            className="inline-block border border-white px-6 py-3 text-sm font-mono text-white no-underline hover:text-zinc-400 hover:border-zinc-400"
+          >
+            download pdf
+          </a>
+        </div>
       </section>
 
       {/* Education */}
