@@ -2,28 +2,28 @@
   "film": {
     "recentlyWatched": [
       {
-        "title": "Vaazha II",
+        "title": "The Silence of the Lambs",
+        "year": 1991,
+        "rating": 5
+      },
+      {
+        "title": "Obsession",
+        "year": 2025,
+        "rating": 5
+      },
+      {
+        "title": "Funny Games",
+        "year": 1997,
+        "rating": 4
+      },
+      {
+        "title": "The Drama",
         "year": 2026,
-        "rating": null
+        "rating": 4
       },
       {
-        "title": "Bharathanatyam 2 Mohiniyattam",
-        "year": 2026,
-        "rating": null
-      },
-      {
-        "title": "Happyend",
-        "year": 2024,
-        "rating": null
-      },
-      {
-        "title": "Bangalore Days",
-        "year": 2014,
-        "rating": null
-      },
-      {
-        "title": "Hoppers",
-        "year": 2026,
+        "title": "22 Female Kottayam",
+        "year": 2012,
         "rating": 3
       }
     ],
@@ -48,9 +48,9 @@
   },
   "music": {
     "recentArtists": [
+      "M.I.A.",
       "Masego",
       "Fred again..",
-      "M.I.A.",
       "Breaking Benjamin",
       "Daft Punk",
       "Madison Beer"
