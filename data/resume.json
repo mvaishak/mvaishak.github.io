@@ -119,8 +119,8 @@
     },
     {
       "title": "KV-Cache Quantization for Long-Horizon Video Generation",
-      "url": "https://github.com/suraj-ranganath/kv-quant-longhorizon",
-      "urlLabel": "https://github.com/suraj-ranganath/kv-quant-longhorizon",
+      "url": "https://doi.org/10.48550/arXiv.2603.27469",
+      "urlLabel": "https://doi.org/10.48550/arXiv.2603.27469",
       "bullets": [
         "Conducted a 33-method empirical study of KV-cache compression and quantization for self-forcing video generation (Wan2.1), benchmarking peak VRAM, runtime, compression ratio, and VBench fidelity across methods.",
         "Identified FlowCache-inspired soft-prune INT4 as optimal, achieving 5.4× compression and reducing peak VRAM from 19.3 GB to 11.7 GB while preserving generation quality in long-horizon inference."
