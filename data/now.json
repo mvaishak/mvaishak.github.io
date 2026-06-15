@@ -2,6 +2,21 @@
   "film": {
     "recentlyWatched": [
       {
+        "title": "Love, Rosie",
+        "year": 2014,
+        "rating": 2
+      },
+      {
+        "title": "Thesis",
+        "year": 1996,
+        "rating": 4
+      },
+      {
+        "title": "Belle de Jour",
+        "year": 1967,
+        "rating": 1
+      },
+      {
         "title": "Backrooms",
         "year": 2026,
         "rating": 3
@@ -10,21 +25,6 @@
         "title": "The Silence of the Lambs",
         "year": 1991,
         "rating": 5
-      },
-      {
-        "title": "Obsession",
-        "year": 2025,
-        "rating": 5
-      },
-      {
-        "title": "Funny Games",
-        "year": 1997,
-        "rating": 4
-      },
-      {
-        "title": "The Drama",
-        "year": 2026,
-        "rating": 4
       }
     ],
     "letterboxd": "https://letterboxd.com/vaishakmelon/"
