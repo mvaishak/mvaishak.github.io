@@ -2,6 +2,11 @@
   "film": {
     "recentlyWatched": [
       {
+        "title": "Your Fault: London",
+        "year": 2026,
+        "rating": 1
+      },
+      {
         "title": "Love, Rosie",
         "year": 2014,
         "rating": 2
@@ -20,11 +25,6 @@
         "title": "Backrooms",
         "year": 2026,
         "rating": 3
-      },
-      {
-        "title": "The Silence of the Lambs",
-        "year": 1991,
-        "rating": 5
       }
     ],
     "letterboxd": "https://letterboxd.com/vaishakmelon/"
