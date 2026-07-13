@@ -2,6 +2,16 @@
   "film": {
     "recentlyWatched": [
       {
+        "title": "About Time",
+        "year": 2013,
+        "rating": 4
+      },
+      {
+        "title": "Surf&#039;s Up",
+        "year": 2007,
+        "rating": 4
+      },
+      {
         "title": "The Usual Suspects",
         "year": 1995,
         "rating": null
@@ -15,16 +25,6 @@
         "title": "The Sheep Detectives",
         "year": 2026,
         "rating": 3
-      },
-      {
-        "title": "Leviticus",
-        "year": 2026,
-        "rating": 3
-      },
-      {
-        "title": "Your Fault: London",
-        "year": 2026,
-        "rating": 1
       }
     ],
     "letterboxd": "https://letterboxd.com/vaishakmelon/"
@@ -49,11 +49,11 @@
   "music": {
     "recentArtists": [
       "Tiësto",
-      "me n ü",
-      "Steve Lacy",
       "Swimming Paul",
+      "Steve Lacy",
+      "me n ü",
       "Chrystal",
-      "Clairo"
+      "Oskar med K"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
   },
