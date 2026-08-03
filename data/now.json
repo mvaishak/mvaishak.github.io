@@ -2,28 +2,28 @@
   "film": {
     "recentlyWatched": [
       {
-        "title": "Finding Emily",
+        "title": "Balan - The Boy",
         "year": 2026,
+        "rating": 4
+      },
+      {
+        "title": "The DUFF",
+        "year": 2015,
         "rating": 3
       },
       {
-        "title": "About Time",
-        "year": 2013,
+        "title": "Troy",
+        "year": 2004,
         "rating": 4
       },
       {
-        "title": "Surf&#039;s Up",
-        "year": 2007,
-        "rating": 4
-      },
-      {
-        "title": "The Usual Suspects",
-        "year": 1995,
-        "rating": null
-      },
-      {
-        "title": "Tuner",
+        "title": "Obsession",
         "year": 2025,
+        "rating": 4
+      },
+      {
+        "title": "Departures",
+        "year": 2008,
         "rating": 4
       }
     ],
@@ -48,12 +48,12 @@
   },
   "music": {
     "recentArtists": [
-      "Tiësto",
       "Swimming Paul",
-      "Steve Lacy",
-      "me n ü",
+      "Culture Wars",
+      "Oskar med K",
+      "projektbau",
       "Chrystal",
-      "Oskar med K"
+      "nimino"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
   },
