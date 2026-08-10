@@ -2,28 +2,28 @@
   "film": {
     "recentlyWatched": [
       {
-        "title": "Balan - The Boy",
-        "year": 2026,
-        "rating": 4
+        "title": "Billy Elliot",
+        "year": 2000,
+        "rating": 5
       },
       {
-        "title": "The DUFF",
-        "year": 2015,
+        "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+        "year": 2023,
         "rating": 3
       },
       {
-        "title": "Troy",
-        "year": 2004,
+        "title": "The Hunger Games: Mockingjay – Part 2",
+        "year": 2015,
         "rating": 4
       },
       {
-        "title": "Obsession",
-        "year": 2025,
+        "title": "The Hunger Games: Mockingjay – Part 1",
+        "year": 2014,
         "rating": 4
       },
       {
-        "title": "Departures",
-        "year": 2008,
+        "title": "The Hunger Games: Catching Fire",
+        "year": 2013,
         "rating": 4
       }
     ],
