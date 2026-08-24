@@ -2,29 +2,29 @@
   "film": {
     "recentlyWatched": [
       {
-        "title": "The Martian",
-        "year": 2015,
+        "title": "The Godfather Part II",
+        "year": 1974,
+        "rating": 5
+      },
+      {
+        "title": "The Godfather",
+        "year": 1972,
+        "rating": 5
+      },
+      {
+        "title": "Toy Story 5",
+        "year": 2026,
         "rating": 4
       },
       {
-        "title": "Memento",
-        "year": 2000,
-        "rating": 4
-      },
-      {
-        "title": "Eko",
-        "year": 2025,
-        "rating": 4
-      },
-      {
-        "title": "Good Time",
-        "year": 2017,
-        "rating": 4
-      },
-      {
-        "title": "Love Jones",
-        "year": 1997,
+        "title": "Teenage Sex and Death at Camp Miasma",
+        "year": 2026,
         "rating": 3
+      },
+      {
+        "title": "La La Land",
+        "year": 2016,
+        "rating": 5
       }
     ],
     "letterboxd": "https://letterboxd.com/vaishakmelon/"
@@ -48,12 +48,12 @@
   },
   "music": {
     "recentArtists": [
-      "Swimming Paul",
-      "Culture Wars",
-      "Oskar med K",
-      "projektbau",
-      "Chrystal",
-      "nimino"
+      "Frankie Valli",
+      "American Football",
+      "Spandau Ballet",
+      "Tom Misch",
+      "Parachute Day",
+      "Sturgill Simpson"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
   },
