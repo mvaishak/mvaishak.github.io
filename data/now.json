@@ -2,29 +2,29 @@
   "film": {
     "recentlyWatched": [
       {
-        "title": "The Godfather Part II",
-        "year": 1974,
-        "rating": 5
-      },
-      {
-        "title": "The Godfather",
-        "year": 1972,
-        "rating": 5
-      },
-      {
-        "title": "Toy Story 5",
-        "year": 2026,
-        "rating": 4
-      },
-      {
-        "title": "Teenage Sex and Death at Camp Miasma",
+        "title": "Coyote vs. Acme",
         "year": 2026,
         "rating": 3
       },
       {
-        "title": "La La Land",
-        "year": 2016,
+        "title": "Picnic at Hanging Rock",
+        "year": 1975,
+        "rating": 3
+      },
+      {
+        "title": "The Dog Stars",
+        "year": 2026,
+        "rating": 2
+      },
+      {
+        "title": "The Lord of the Rings: The Two Towers",
+        "year": 2002,
         "rating": 5
+      },
+      {
+        "title": "The Wicker Man",
+        "year": 1973,
+        "rating": 4
       }
     ],
     "letterboxd": "https://letterboxd.com/vaishakmelon/"
