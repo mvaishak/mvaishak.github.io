@@ -2,6 +2,21 @@
   "film": {
     "recentlyWatched": [
       {
+        "title": "Akira",
+        "year": 1988,
+        "rating": 4
+      },
+      {
+        "title": "The Uprising",
+        "year": 2026,
+        "rating": 3
+      },
+      {
+        "title": "Colony",
+        "year": 2026,
+        "rating": 4
+      },
+      {
         "title": "Coyote vs. Acme",
         "year": 2026,
         "rating": 3
@@ -10,21 +25,6 @@
         "title": "Picnic at Hanging Rock",
         "year": 1975,
         "rating": 3
-      },
-      {
-        "title": "The Dog Stars",
-        "year": 2026,
-        "rating": 2
-      },
-      {
-        "title": "The Lord of the Rings: The Two Towers",
-        "year": 2002,
-        "rating": 5
-      },
-      {
-        "title": "The Wicker Man",
-        "year": 1973,
-        "rating": 4
       }
     ],
     "letterboxd": "https://letterboxd.com/vaishakmelon/"
@@ -49,11 +49,11 @@
   "music": {
     "recentArtists": [
       "Frankie Valli",
-      "American Football",
-      "Spandau Ballet",
       "Tom Misch",
-      "Parachute Day",
-      "Sturgill Simpson"
+      "American Football",
+      "Sade",
+      "Spandau Ballet",
+      "Durand Jones & The Indications"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
   },
