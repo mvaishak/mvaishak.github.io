@@ -2,6 +2,21 @@
   "film": {
     "recentlyWatched": [
       {
+        "title": "Hope",
+        "year": 2026,
+        "rating": 3
+      },
+      {
+        "title": "Star Trek II: The Wrath of Khan",
+        "year": 1982,
+        "rating": 3
+      },
+      {
+        "title": "The Weight",
+        "year": 2026,
+        "rating": 3
+      },
+      {
         "title": "Akira",
         "year": 1988,
         "rating": 4
@@ -10,37 +25,18 @@
         "title": "The Uprising",
         "year": 2026,
         "rating": 3
-      },
-      {
-        "title": "Colony",
-        "year": 2026,
-        "rating": 4
-      },
-      {
-        "title": "Coyote vs. Acme",
-        "year": 2026,
-        "rating": 3
-      },
-      {
-        "title": "Picnic at Hanging Rock",
-        "year": 1975,
-        "rating": 3
       }
     ],
     "letterboxd": "https://letterboxd.com/vaishakmelon/"
   },
   "books": {
     "currentlyReading": {
-      "title": "The Dungeon Anarchist's Cookbook",
-      "author": "Matt Dinniman"
+      "title": "The Fall of Hyperion",
+      "author": "Dan Simmons"
     },
     "recentlyFinished": [
       {
         "title": "Carl's Doomsday Scenario",
-        "author": "Matt Dinniman"
-      },
-      {
-        "title": "Dungeon Crawler Carl",
         "author": "Matt Dinniman"
       }
     ],
@@ -49,11 +45,11 @@
   "music": {
     "recentArtists": [
       "Frankie Valli",
+      "Eau Claire Memorial Jazz I",
       "Tom Misch",
       "American Football",
       "Sade",
-      "Spandau Ballet",
-      "Durand Jones & The Indications"
+      "Spandau Ballet"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
   },
