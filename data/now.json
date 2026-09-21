@@ -2,6 +2,16 @@
   "film": {
     "recentlyWatched": [
       {
+        "title": "Resident Evil",
+        "year": 2026,
+        "rating": 4
+      },
+      {
+        "title": "Enemy",
+        "year": 2013,
+        "rating": 3
+      },
+      {
         "title": "Hope",
         "year": 2026,
         "rating": 3
@@ -13,16 +23,6 @@
       },
       {
         "title": "The Weight",
-        "year": 2026,
-        "rating": 3
-      },
-      {
-        "title": "Akira",
-        "year": 1988,
-        "rating": 4
-      },
-      {
-        "title": "The Uprising",
         "year": 2026,
         "rating": 3
       }
@@ -44,12 +44,12 @@
   },
   "music": {
     "recentArtists": [
-      "Frankie Valli",
       "Eau Claire Memorial Jazz I",
-      "Tom Misch",
-      "American Football",
-      "Sade",
-      "Spandau Ballet"
+      "The Meters",
+      "Gia Margaret",
+      "Justin Vernon",
+      "Milton Wright",
+      "Neil Frances"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
   },
