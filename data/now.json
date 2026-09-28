@@ -2,29 +2,29 @@
   "film": {
     "recentlyWatched": [
       {
-        "title": "Resident Evil",
+        "title": "The Bridges of Madison County",
+        "year": 1995,
+        "rating": 4
+      },
+      {
+        "title": "Ha-Chan, Shake Your Booty!",
         "year": 2026,
         "rating": 4
       },
       {
-        "title": "Enemy",
-        "year": 2013,
-        "rating": 3
+        "title": "Chainsaw Man – The Movie: Reze Arc",
+        "year": 2025,
+        "rating": 4
       },
       {
-        "title": "Hope",
+        "title": "Mollywood Times",
         "year": 2026,
         "rating": 3
       },
       {
-        "title": "Star Trek II: The Wrath of Khan",
-        "year": 1982,
-        "rating": 3
-      },
-      {
-        "title": "The Weight",
+        "title": "Forgotten Island",
         "year": 2026,
-        "rating": 3
+        "rating": 4
       }
     ],
     "letterboxd": "https://letterboxd.com/vaishakmelon/"
@@ -44,12 +44,12 @@
   },
   "music": {
     "recentArtists": [
+      "Q Marsden",
+      "Kehlani",
       "Eau Claire Memorial Jazz I",
-      "The Meters",
+      "Baby Rose",
       "Gia Margaret",
-      "Justin Vernon",
-      "Milton Wright",
-      "Neil Frances"
+      "Gotts Street Park"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
   },
