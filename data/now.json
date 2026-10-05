@@ -2,6 +2,16 @@
   "film": {
     "recentlyWatched": [
       {
+        "title": "Digger",
+        "year": 2026,
+        "rating": 4
+      },
+      {
+        "title": "Bethlehem Kudumba Unit",
+        "year": 2026,
+        "rating": 4
+      },
+      {
         "title": "The Bridges of Madison County",
         "year": 1995,
         "rating": 4
@@ -14,16 +24,6 @@
       {
         "title": "Chainsaw Man – The Movie: Reze Arc",
         "year": 2025,
-        "rating": 4
-      },
-      {
-        "title": "Mollywood Times",
-        "year": 2026,
-        "rating": 3
-      },
-      {
-        "title": "Forgotten Island",
-        "year": 2026,
         "rating": 4
       }
     ],
@@ -48,7 +48,7 @@
       "Kehlani",
       "Eau Claire Memorial Jazz I",
       "Baby Rose",
-      "Gia Margaret",
+      "Daniel Caesar",
       "Gotts Street Park"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
