@@ -2,6 +2,21 @@
   "film": {
     "recentlyWatched": [
       {
+        "title": "Crazy, Stupid, Love.",
+        "year": 2011,
+        "rating": 4
+      },
+      {
+        "title": "Arrival",
+        "year": 2016,
+        "rating": 5
+      },
+      {
+        "title": "Sense and Sensibility",
+        "year": 2026,
+        "rating": 3
+      },
+      {
         "title": "Digger",
         "year": 2026,
         "rating": 4
@@ -9,21 +24,6 @@
       {
         "title": "Bethlehem Kudumba Unit",
         "year": 2026,
-        "rating": 4
-      },
-      {
-        "title": "The Bridges of Madison County",
-        "year": 1995,
-        "rating": 4
-      },
-      {
-        "title": "Ha-Chan, Shake Your Booty!",
-        "year": 2026,
-        "rating": 4
-      },
-      {
-        "title": "Chainsaw Man – The Movie: Reze Arc",
-        "year": 2025,
         "rating": 4
       }
     ],
@@ -46,10 +46,10 @@
     "recentArtists": [
       "Q Marsden",
       "Jorja Smith",
-      "Kehlani",
       "Omar Apollo",
       "Daniel Caesar",
-      "Imogen Heap"
+      "Kehlani",
+      "wylie hopkins"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
   },
