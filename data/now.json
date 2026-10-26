@@ -2,28 +2,28 @@
   "film": {
     "recentlyWatched": [
       {
-        "title": "Crazy, Stupid, Love.",
-        "year": 2011,
-        "rating": 4
-      },
-      {
-        "title": "Arrival",
-        "year": 2016,
-        "rating": 5
-      },
-      {
-        "title": "Sense and Sensibility",
+        "title": "Your Mother Your Mother Your Mother",
         "year": 2026,
         "rating": 3
       },
       {
-        "title": "Digger",
+        "title": "Wildwood",
         "year": 2026,
         "rating": 4
       },
       {
-        "title": "Bethlehem Kudumba Unit",
+        "title": "Clayface",
         "year": 2026,
+        "rating": 3
+      },
+      {
+        "title": "You Can See Everything",
+        "year": 2026,
+        "rating": 5
+      },
+      {
+        "title": "Crazy, Stupid, Love.",
+        "year": 2011,
         "rating": 4
       }
     ],
@@ -45,11 +45,11 @@
   "music": {
     "recentArtists": [
       "Q Marsden",
-      "Jorja Smith",
       "Omar Apollo",
-      "Daniel Caesar",
-      "Kehlani",
-      "wylie hopkins"
+      "wylie hopkins",
+      "Jorja Smith",
+      "Jean Dawson",
+      "Odie"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
   },
