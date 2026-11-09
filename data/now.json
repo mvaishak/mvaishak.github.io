@@ -2,28 +2,28 @@
   "film": {
     "recentlyWatched": [
       {
-        "title": "Your Mother Your Mother Your Mother",
-        "year": 2026,
-        "rating": 3
+        "title": "Godzilla Minus One",
+        "year": 2023,
+        "rating": 4
       },
       {
-        "title": "Wildwood",
+        "title": "Wild Horse Nine",
         "year": 2026,
         "rating": 4
       },
       {
-        "title": "Clayface",
+        "title": "La Bola Negra",
         "year": 2026,
-        "rating": 3
+        "rating": 4
       },
       {
-        "title": "You Can See Everything",
-        "year": 2026,
-        "rating": 5
+        "title": "A Simple Plan",
+        "year": 1998,
+        "rating": 4
       },
       {
-        "title": "Crazy, Stupid, Love.",
-        "year": 2011,
+        "title": "Wicker",
+        "year": 2026,
         "rating": 4
       }
     ],
@@ -47,9 +47,9 @@
       "Curtain Blue",
       "Jigitz",
       "Odie",
-      "Jean Dawson",
-      "Omar Apollo",
-      "Justin Bieber"
+      "Justin Bieber",
+      "hemang",
+      "Latin mafia"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
   },
