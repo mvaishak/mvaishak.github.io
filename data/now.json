@@ -2,6 +2,11 @@
   "film": {
     "recentlyWatched": [
       {
+        "title": "Godzilla Minus Zero",
+        "year": 2026,
+        "rating": 3
+      },
+      {
         "title": "Godzilla Minus One",
         "year": 2023,
         "rating": 4
@@ -19,11 +24,6 @@
       {
         "title": "A Simple Plan",
         "year": 1998,
-        "rating": 4
-      },
-      {
-        "title": "Wicker",
-        "year": 2026,
         "rating": 4
       }
     ],
@@ -46,9 +46,9 @@
     "recentArtists": [
       "Curtain Blue",
       "Jigitz",
-      "Odie",
-      "Justin Bieber",
       "hemang",
+      "Justin Bieber",
+      "Odie",
       "Latin mafia"
     ],
     "lastfm": "https://www.last.fm/user/m_vaishak"
